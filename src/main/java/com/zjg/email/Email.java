@@ -14,7 +14,7 @@ public class Email {
 
 	public static void sendMail(String from,String toMail,String mailTitle,String mailContent	) throws MessagingException, UnsupportedEncodingException{
 		String fromEmail = "1763608200@qq.com";
-		String password = "bqqsfddmkwqneche";
+		String password = "bqqsfddmkqqngche";
 		Properties props = new Properties();//加载一个配置文件
 		props.put("mail.smtp.host", "smtp.qq.com");//存储发送邮件服务器的信息,qq为例，如果是163则是smtp.163.com
 		props.put("mail.transport.protocol","smtp");//使用smtp简单邮件传输协议
